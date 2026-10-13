@@ -1,0 +1,10 @@
+body { background-color: rgb(141, 235, 206);
+font-family:Arial, sans-serif;
+font-size: 16px;
+line-height: 1;}
+
+.card {background-color: rgb(119, 240, 169);
+padding: 16px;
+border: 2px solid black;
+margin: 24px;
+border-radius: 8px;}
