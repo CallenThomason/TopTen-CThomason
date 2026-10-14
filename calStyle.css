@@ -16,6 +16,18 @@ h2 {
 footer {
     font-size: 7px;
     color: grey;
+     padding: 10px;
+     margin: 1px;
+     margin-left: 80px;
+     margin-right: 80px; 
+     align-items: center; 
+    
+    display: flex;
+    
+    flex-wrap: wrap; 
+    flex-direction: column; 
+   
+   
 }
 
 #one {
@@ -33,19 +45,25 @@ footer {
     text-shadow: 2px 2px 2px black;
 }
 
-section {
+.card {
     border: 2px solid black;
-    padding: 10px;
-    margin: 24px;
-    width: 900px;
-    display: block;
-    margin: 24px auto;
+    padding: 20px;
+     margin: 24px;
+     margin-left: 80px;
+     margin-right: 80px; 
+     align-items: center; 
+    
+    display: flex;
+    
+    flex-wrap: wrap; 
+    flex-direction: column; 
+    margin-top: auto; 
 }
 
 img {
     border: 2px solid black;
     display: block;
-    margin: 24px auto;
+    margin: 10px auto;
 }
 
 #navigation {
@@ -64,12 +82,30 @@ img {
   
     text-decoration: none;
     color: white;
-    justify-content: space-between;
-    padding: 100px;
     
+    gap: 12px; 
     
+}
+.divGrid{
+     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px; 
 }
 #ever{
     color: red;
     text-shadow: 2px 2px 2px black;
+}
+.card-img{
+    width: 60%;
+    height: 300px;
+    border-radius: 8px;
+    object-fit: cover; 
+
+}
+.allTen{
+    display: grid;
+    grid-template-rows: repeat(10, 1fr), 1%;
+    gap: 24px; 
+    margin: 12px;
+    
 }
