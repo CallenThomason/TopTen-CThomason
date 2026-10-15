@@ -2,5 +2,5 @@
 10/15/26
 Favorite Top 10
 We used HTML and CSS to create a website with a home page that leads to two seperate Top 10's. Cal used flex boxes and grids to make viewer friendly screens for any size screen on his side of the assignment, but he can't say he understands it fully. 
-Reviewer: 
-Review: 
+Reviewer: Zionn Showers
+Review: Really good! Consistent website design. I like that you made two different css stylesheets for the pages instead of just relying on one. I also liked the pictures you added on the home screen, showing who made what.
