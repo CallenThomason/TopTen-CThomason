@@ -34,6 +34,13 @@
     background-position: center;
    
 }
+.bigchris{
+    background-image: url("ChrisAssets/chris.jpg"); 
+    background-size: cover;
+    background-position: center;
+   
+}
+
 header{
 
     text-align: center; 
@@ -41,5 +48,10 @@ header{
 }
 .calLink{
     color: gold; 
+    text-shadow: 2px 2px 2px black;
+}
+
+.chrisLink{
+    color: red;
     text-shadow: 2px 2px 2px black;
 }
